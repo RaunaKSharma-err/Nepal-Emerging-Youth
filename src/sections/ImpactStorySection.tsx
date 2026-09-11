@@ -12,7 +12,7 @@ export function ImpactStorySection() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <Reveal>
             <div className="relative">
-              <div className="aspect-[4/3] overflow-hidden rounded-xl">
+              <div className="aspect-[5/5] overflow-hidden rounded-xl">
                 <img
                   src={impactStory.image}
                   alt={impactStory.title}

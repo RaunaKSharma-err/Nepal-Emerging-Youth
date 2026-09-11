@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { PageHeader } from "@/components/PageHeader";
 import { Reveal } from "@/components/Reveal";
-import { SectionHeader } from "@/components/SectionHeader";
 import { TeamMemberCard } from "@/components/TeamMemberCard";
 import { teamMembers, teamCategories } from "@/data/team";
 import { cn } from "@/lib/utils";

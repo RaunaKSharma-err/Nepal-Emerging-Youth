@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, Twitter, Linkedin, Youtube, Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin, ArrowRight } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -22,9 +22,7 @@ export function Footer() {
   const socialLinks = [
     { icon: Facebook, href: siteConfig.social.facebook, label: "Facebook" },
     { icon: Instagram, href: siteConfig.social.instagram, label: "Instagram" },
-    { icon: Twitter, href: siteConfig.social.twitter, label: "Twitter" },
     { icon: Linkedin, href: siteConfig.social.linkedin, label: "LinkedIn" },
-    { icon: Youtube, href: siteConfig.social.youtube, label: "YouTube" },
   ];
 
   return (

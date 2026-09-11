@@ -4,12 +4,10 @@ import { AboutSection } from "@/sections/AboutSection";
 import { WhyNEYSection } from "@/sections/WhyNEYSection";
 import { ProgramsSection } from "@/sections/ProgramsSection";
 import { ImpactStorySection } from "@/sections/ImpactStorySection";
-import { EventsSection } from "@/sections/EventsSection";
-import { AchievementsSection } from "@/sections/AchievementsSection";
+// import { AchievementsSection } from "@/sections/AchievementsSection";
 import { TeamPreviewSection } from "@/sections/TeamPreviewSection";
-import { PartnersSection } from "@/sections/PartnersSection";
 import { GetInvolvedSection } from "@/sections/GetInvolvedSection";
-import { NewsSection } from "@/sections/NewsSection";
+// import { NewsSection } from "@/sections/NewsSection";
 
 export default function HomePage() {
   return (
@@ -20,12 +18,10 @@ export default function HomePage() {
       <WhyNEYSection />
       <ProgramsSection />
       <ImpactStorySection />
-      <EventsSection />
-      <AchievementsSection />
+      {/* <AchievementsSection /> */}
       <TeamPreviewSection />
-      <PartnersSection />
       <GetInvolvedSection />
-      <NewsSection />
+      {/* <NewsSection /> */}
     </>
   );
 }

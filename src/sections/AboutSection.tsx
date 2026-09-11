@@ -41,7 +41,7 @@ export function AboutSection() {
 
           <Reveal delay={0.15} className="lg:col-span-5">
             <div className="relative">
-              <div className="relative aspect-[8/10] overflow-hidden rounded-xl">
+              <div className="relative aspect-[12/10] overflow-hidden rounded-xl">
                 <img
                   src={heroImages.workshop}
                   alt="Young people in a leadership workshop"

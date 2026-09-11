@@ -18,7 +18,7 @@ export function EventsSection() {
               <div>
                 <span className="eyebrow">Get Together</span>
                 <h2 className="mt-4 text-balance text-[1.75rem] font-bold leading-tight tracking-tight sm:text-[2.25rem] lg:text-[2.75rem]">
-                  Upcoming Events
+                  All Events
                 </h2>
               </div>
             </div>
@@ -44,7 +44,7 @@ export function EventsSection() {
             <div>
               <span className="eyebrow">Get Together</span>
               <h2 className="mt-4 text-balance text-[1.75rem] font-bold leading-tight tracking-tight sm:text-[2.25rem] lg:text-[2.75rem]">
-                Upcoming Events
+                Events & Activities
               </h2>
               <p className="mt-4 max-w-xl text-pretty text-[15px] leading-relaxed text-muted-foreground sm:text-base">
                 Join us at our next workshop, conference, or community drive.

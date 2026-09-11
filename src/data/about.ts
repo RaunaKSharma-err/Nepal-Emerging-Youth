@@ -6,7 +6,7 @@ export const impactStats: ImpactStat[] = [
   { label: "Events Organized", value: "80", suffix: "+", icon: "CalendarDays" },
   { label: "Communities Reached", value: "25", suffix: "+", icon: "MapPin" },
   { label: "Programs Running", value: "15", suffix: "+", icon: "Rocket" },
-  { label: "Partnerships", value: "20", suffix: "+", icon: "Handshake" },
+  { label: "Past Partnerships", value: "20", suffix: "+", icon: "Handshake" },
 ];
 
 export const values: Value[] = [
@@ -110,15 +110,15 @@ export const impactStory: import("@/types").ImpactStory = {
   title: "From Ideas to Impact",
   subtitle: "How a small team turned a community need into lasting change",
   image:
-    "https://images.pexels.com/photos/6646770/pexels-photo-6646770.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "https://scontent.fktm24-1.fna.fbcdn.net/v/t39.30808-6/793212642_122167074789119995_740175094318545571_n.jpg?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s1800x1800&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_LeBE0geUIoQ7kNvwGN9Y_K&_nc_oc=Adp-EK7_g9MH95DGLMTZTN2MFz85OyP0paAnR5oLLq5mqhrCg9yRGoBGcn14Os_7OqEXTVQebLsy7jIxD_vPXhif&_nc_zt=23&_nc_ht=scontent.fktm24-1.fna&_nc_gid=hc3yjc5u4waTRyfCkKELbQ&_nc_ss=7b2a8&oh=00_AQKReCpfgRL3ml9jVTWV3QAZteJXx6615sU7P9zFbASXlA&oe=6AA99FC3",
   problem:
-    "In several communities across Nepal, young people lacked access to structured leadership training and meaningful volunteer opportunities. Many were eager to contribute but had no organized platform to channel their energy.",
+    "In Massive flood in bhotekoshi river and other rivers in Nepal, young people lacked access to structured leadership training and meaningful volunteer opportunities. Many were eager to contribute but had no organized platform to channel their energy.",
   action:
-    "NEY organized a series of community leadership workshops, bringing together local youth for training in project management, communication, and community organizing. Volunteers were paired with mentors and given real responsibilities.",
+    "NEY organized a series of community health service, bringing together local youth for free treatment, communication, and community organizing. Volunteers were paired with mentors and given real responsibilities.",
   result:
-    "Within months, participants launched their own community initiatives — from awareness campaigns to educational support programs. The model proved that with the right support, young people can drive measurable change.",
-  location: "Multiple communities, Nepal",
-  participants: "120+",
+    "Within days, participants got their own health checkup community initiatives from awareness campaigns to health checkup programs. The model proved that with the right support, young people can drive measurable change.",
+  location: "Nuwakot, Nepal",
+  participants: "500+",
   volunteers: "30+",
-  outcome: "8 community-led initiatives launched by workshop graduates",
+  outcome: "Self-led initiative launched by workshop graduates",
 };

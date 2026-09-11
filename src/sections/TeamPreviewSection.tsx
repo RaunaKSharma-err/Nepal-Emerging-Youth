@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+// import { Link } from "react-router-dom";
+// import { ArrowRight } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 import { TeamMemberCard } from "@/components/TeamMemberCard";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { teamMembers } from "@/data/team";
 
 export function TeamPreviewSection() {
@@ -22,12 +22,12 @@ export function TeamPreviewSection() {
                 Meet some of the people leading NEY's mission to empower youth across Nepal.
               </p>
             </div>
-            <Button asChild variant="outline" className="shrink-0">
+            {/* <Button asChild variant="outline" className="shrink-0">
               <Link to="/team">
                 Meet the Full Team
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
-            </Button>
+            </Button> */}
           </div>
         </Reveal>
 

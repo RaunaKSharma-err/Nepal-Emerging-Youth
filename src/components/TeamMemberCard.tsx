@@ -9,7 +9,7 @@ interface TeamMemberCardProps {
 }
 
 function getInitials(name: string): string {
-  const cleaned = name.replace(/[\[\]]/g, "").trim();
+  const cleaned = name.replace(/[[\]]/g, "").trim();
   const parts = cleaned.split(/\s+/);
   if (parts.length >= 2) {
     return (parts[0][0] + parts[1][0]).toUpperCase();
@@ -25,17 +25,19 @@ export function TeamMemberCard({ member, className }: TeamMemberCardProps) {
         className,
       )}
     >
-      <Avatar className="h-24 w-24 rounded-full border border-border transition-transform group-hover:scale-105">
+      <Avatar className="h-30 w-30 rounded-full border border-border transition-transform group-hover:scale-105">
         <AvatarImage src={member.image} alt={member.name} />
         <AvatarFallback className="rounded-full bg-secondary text-base font-bold text-secondary-foreground">
           {getInitials(member.name)}
         </AvatarFallback>
       </Avatar>
-      <h3 className="mt-4 text-[15px] font-bold leading-tight tracking-tight">
+      <h3 className="mt-4 text-[25px] font-bold leading-tight tracking-tight">
         {member.name}
       </h3>
       <p className="mt-1 text-sm font-medium text-accent">{member.position}</p>
-      <p className="mt-0.5 text-xs text-muted-foreground">{member.department}</p>
+      <p className="mt-0.5 text-xs text-muted-foreground">
+        {member.department}
+      </p>
       <p className="mt-3 line-clamp-3 text-[13px] leading-relaxed text-muted-foreground">
         {member.bio}
       </p>

@@ -4,7 +4,6 @@ import { Reveal } from "@/components/Reveal";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { galleryItems, galleryCategories } from "@/data/organization";
 import { cn } from "@/lib/utils";
-import { X } from "lucide-react";
 
 export default function MediaPage() {
   const [filter, setFilter] = useState("All");

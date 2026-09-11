@@ -51,7 +51,7 @@ export function Hero() {
             {...fadeUp(0.25)}
             className="mt-7 max-w-xl text-pretty text-base leading-relaxed text-white/65 sm:text-lg"
           >
-            A youth-driven organization building the next generation of Nepali leaders through
+            A youth-driven non-profit organization building the next generation of Nepali leaders through
             leadership development, innovation, community service, and social impact.
           </motion.p>
 

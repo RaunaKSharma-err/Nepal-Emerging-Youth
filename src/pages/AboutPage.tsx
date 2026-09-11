@@ -1,9 +1,7 @@
 import { PageHeader } from "@/components/PageHeader";
-import { Reveal } from "@/components/Reveal";
-import { SectionHeader } from "@/components/SectionHeader";
 import { AboutSection } from "@/sections/AboutSection";
 import { WhyNEYSection } from "@/sections/WhyNEYSection";
-import { AchievementsSection } from "@/sections/AchievementsSection";
+// import { AchievementsSection } from "@/sections/AchievementsSection";
 import { GetInvolvedSection } from "@/sections/GetInvolvedSection";
 
 export default function AboutPage() {
@@ -16,7 +14,7 @@ export default function AboutPage() {
       />
       <AboutSection />
       <WhyNEYSection />
-      <AchievementsSection />
+      {/* <AchievementsSection /> */}
       <GetInvolvedSection />
     </>
   );
