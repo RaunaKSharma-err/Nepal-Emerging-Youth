@@ -36,7 +36,7 @@ export function ProgramsSection() {
         {large && (
           <Reveal>
             <Link
-              to={`/programs/${large.slug}`}
+              to={`/programs`}
               className="group relative flex min-h-[380px] flex-col justify-end overflow-hidden rounded-xl sm:min-h-[460px]"
             >
               <img
@@ -55,10 +55,6 @@ export function ProgramsSection() {
                     <div className="number-display text-3xl font-extrabold tracking-tight text-accent sm:text-4xl">{large.impactMetric}</div>
                     <div className="text-xs text-white/50">{large.impactLabel}</div>
                   </div>
-                  <span className="flex items-center gap-1 text-sm font-semibold text-white transition-transform group-hover:translate-x-1">
-                    Learn More
-                    <ArrowUpRight className="h-4 w-4" />
-                  </span>
                 </div>
               </div>
             </Link>
@@ -71,7 +67,7 @@ export function ProgramsSection() {
             {smalls.map((initiative, idx) => (
               <Reveal key={initiative.slug} delay={idx * 0.1}>
                 <Link
-                  to={`/programs/${initiative.slug}`}
+                  to={`/programs`}
                   className="group relative flex min-h-[220px] flex-col justify-end overflow-hidden rounded-xl"
                 >
                   <img

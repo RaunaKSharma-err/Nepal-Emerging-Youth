@@ -18,7 +18,7 @@ export const siteConfig = {
 export const navLinks = [
   { label: "About", href: "/about" },
   { label: "Programs", href: "/programs" },
-  { label: "Impact", href: "/impact" },
+  { label: "Donate & Impact", href: "/impact" },
   { label: "Events", href: "/events" },
   // { label: "Team", href: "/team" },
   { label: "Media", href: "/media" },
@@ -60,5 +60,5 @@ export const heroImages = {
   tertiary:
     "https://images.pexels.com/photos/6647026/pexels-photo-6647026.jpeg?auto=compress&cs=tinysrgb&h=600&w=800",
   workshop:
-    "https://scontent.fktm24-1.fna.fbcdn.net/v/t39.30808-6/769778057_122164365777119995_7408617553008005808_n.jpg?stp=dst-jpg_tt6&cstp=mx1800x1012&ctp=s1800x1012&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=S2bXWALO6HUQ7kNvwHhwTay&_nc_oc=Adr7F3av3PVHRm9WyzIoXlwWlvilcXHXDowZMrG6MphnUSW_VO-yWIptweFlkywxdhDfJ7g8Q6FXpHBG6tKXYQdE&_nc_zt=23&_nc_ht=scontent.fktm24-1.fna&_nc_gid=1w-AqKcR7c3rgaYXMUfSjg&_nc_ss=7b2a8&oh=00_AQIxpb-0nwJ-ljuyapof_ZWlXKecjh-9J6_NAhkMfp6Jcw&oe=6AA9B29B",
+    "/herosecimg.jpg",
 };

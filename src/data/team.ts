@@ -26,7 +26,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "3",
     name: "Raunak Sharma",
-    position: "IT Head",
+    position: "Director , Co-Founder & IT Head",
     department: "Programs",
     category: "executive",
     bio: "Oversees the IT department, implementation, and evaluation of all NEY Digital presence, ensuring quality and impact across initiatives.",

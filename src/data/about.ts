@@ -50,7 +50,65 @@ export const values: Value[] = [
     description: "We take ownership of our actions and their impact on society.",
     icon: "Target",
   },
+
+  // Areas of Focus
+  {
+    title: "Climate",
+    description: "We support climate action, environmental sustainability, and resilient communities.",
+    icon: "Leaf",
+  },
+  {
+    title: "Health",
+    description: "We promote healthier communities through awareness, access, and innovative solutions.",
+    icon: "HeartPulse",
+  },
+  {
+    title: "Education",
+    description: "We expand access to quality education, learning opportunities, and skills development.",
+    icon: "GraduationCap",
+  },
+  {
+    title: "Disaster",
+    description: "We strengthen disaster preparedness, response, recovery, and community resilience.",
+    icon: "House",
+  },
+  {
+    title: "WASH",
+    description: "We improve access to clean water, sanitation, and hygiene for healthier communities.",
+    icon: "Droplets",
+  },
+  {
+    title: "Research",
+    description: "We use research, evidence, and knowledge to understand challenges and develop effective solutions.",
+    icon: "Microscope",
+  },
+  {
+    title: "Human Rights",
+    description: "We promote dignity, equality, justice, and the protection of human rights.",
+    icon: "Dove",
+  },
+  {
+    title: "Digital",
+    description: "We use digital technology and innovation to expand opportunities and connect communities.",
+    icon: "Laptop",
+  },
+  {
+    title: "Poverty Reduction",
+    description: "We work to reduce poverty by creating opportunities, strengthening livelihoods, and improving inclusion.",
+    icon: "House",
+  },
+  {
+    title: "Agriculture",
+    description: "We support sustainable agriculture, food security, and resilient livelihoods.",
+    icon: "Wheat",
+  },
+  {
+    title: "Entrepreneurship",
+    description: "We empower people with entrepreneurial skills, resources, and opportunities to build sustainable enterprises.",
+    icon: "BriefcaseBusiness",
+  },
 ];
+
 
 export const aboutContent = {
   whoWeAre:
@@ -110,7 +168,7 @@ export const impactStory: import("@/types").ImpactStory = {
   title: "From Ideas to Impact",
   subtitle: "How a small team turned a community need into lasting change",
   image:
-    "https://scontent.fktm24-1.fna.fbcdn.net/v/t39.30808-6/793212642_122167074789119995_740175094318545571_n.jpg?stp=dst-jpg_tt6&cstp=mx1800x1800&ctp=s1800x1800&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_LeBE0geUIoQ7kNvwGN9Y_K&_nc_oc=Adp-EK7_g9MH95DGLMTZTN2MFz85OyP0paAnR5oLLq5mqhrCg9yRGoBGcn14Os_7OqEXTVQebLsy7jIxD_vPXhif&_nc_zt=23&_nc_ht=scontent.fktm24-1.fna&_nc_gid=hc3yjc5u4waTRyfCkKELbQ&_nc_ss=7b2a8&oh=00_AQKReCpfgRL3ml9jVTWV3QAZteJXx6615sU7P9zFbASXlA&oe=6AA99FC3",
+    "/qr.jpeg",
   problem:
     "In Massive flood in bhotekoshi river and other rivers in Nepal, young people lacked access to structured leadership training and meaningful volunteer opportunities. Many were eager to contribute but had no organized platform to channel their energy.",
   action:
